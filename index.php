@@ -12,7 +12,7 @@
     <h1>comments in PHP</h1>
 
     <?php
-    echo 25 + 56;
+    <h2> out put of calculation  .echo 25 + 56;</h2>
     ?>
 </body>
 </body>
