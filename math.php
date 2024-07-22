@@ -9,12 +9,12 @@
 <title>Learn in html</title>
 
 <body>
-    <h1>Comments in PHP</h1>
-
-    <?php
-    echo 25 + 56;
-    ?>
-</body>
+    <h1 style="text-align: center; font-size:2cm">Math Opeation in PHP</h1>
+    <h1>
+        <?php
+        echo 15 + 56;
+        ?>
+    </h1>
 </body>
 
 </html>
