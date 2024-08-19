@@ -9,17 +9,19 @@
 <title>Learn in html</title>
 
 <body>
-    <h1 style="text-align: center; font-size:2cm">While loop in PHP</h1>
+    <h1 style="text-align: center; font-size:2cm">Global in PHP</h1>
     <h1>
         <?php
 
-        $counter = 1;
-        while ($counter <= 10) {
-
-            echo "$counter";
-            echo "<br>";
-            $counter = $counter + 1;
+        $a = "out";
+        function convert()
+        {
+            global $a;
+            $a = "in";
         }
+
+        convert();
+        echo $a;
         ?>
 
 
