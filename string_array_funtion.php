@@ -12,9 +12,23 @@
     <h1 style="text-align: center; font-size:2cm">Constant in PHP</h1>
     <h1>
         <?php
-        $string = "My name is Bhupinder";
+        // $string = "My name is Bhupinder";
 
-        echo strlen($string);
+        // echo strlen($string);
+        // echo "<br>";
+
+        // echo strtoupper($string);
+
+        $arr = [55, 66, 44, 88, 44, 22, 11];
+
+        if (in_array(45, $arr)) {
+
+            echo "it is present";
+        } else {
+            echo "it is not present";
+        }
+
+
         ?>
 
 
