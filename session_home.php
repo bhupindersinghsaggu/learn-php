@@ -1,14 +1,14 @@
 
         <?php
-        echo "This is login page <br>";
+        echo "welcome" .$_SESSION ['name'];
 
-        $_SESSION ['name']="Bhupinder";
+        // $_SESSION ['name']="Bhupinder";
 
-        echo $_SESSION ['name'];
+        // echo $_SESSION ['name'];
 
+  
 
-
-        ?>
+        ?> 
 
 
        
