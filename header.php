@@ -1,0 +1,1 @@
+<h1 style="text-align: center; font-size:2cm">The Header of the site</h1>

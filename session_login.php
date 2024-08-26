@@ -1,14 +1,7 @@
+<?php
+echo "This is login page <br>";
+session_start();
 
-        <?php
-        echo "This is login page <br>";
+$_SESSION['name'] = "Bhupinder";
 
-        $_SESSION ['name']="Bhupinder";
-
-        echo $_SESSION ['name'];
-
-
-
-        ?>
-
-
-       
+echo $_SESSION['name'];
